@@ -1,7 +1,16 @@
-//Generate random number and write it to .goal-number
+//Generate random number between 19-120 and logs it to console
+function randomNumber(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    console.log (Math.floor(Math.random() * (max - min)) + min); 
+  }
+
+//Assigns random number as goal for player to meet
+var goal = randomNumber(19, 120)
+
+//on click event for buttons - logs click to console
+$(".crystal-img").on("click", function() {
+    console.log("click!");
 
 
-
-//on click event for buttons - when player clicks a button update score by that quantity - do not show quantity on button
-
-//If players total score matches goal number restart game - increase wins by 1, if players total score exceeds goal number restart game - increase losses
+  });
