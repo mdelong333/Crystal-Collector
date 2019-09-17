@@ -1,4 +1,56 @@
 body {
+   background-image: url(../images/rainbowdark.jpg);
    background-color: black;
    color: whitesmoke;
 }
+
+.crystal-img:hover {
+   filter:drop-shadow(0 0 15px white);
+}
+
+.crystal-img:visited {
+   border: none;
+}
+
+.crystal-img:active {
+   opacity: .5;
+}
+
+h1 {
+   font-family: 'Poiret One', cursive;
+   border-bottom: 2px solid purple;
+   width: 600px;
+   text-align: center;
+   color: goldenrod;
+   margin-left: 400px;
+   margin-right: 400px;
+}
+
+h2 {
+   font-family: 'Poiret One', cursive;
+   color: goldenrod;
+}
+
+p {
+   font-family: 'Quattrocento Sans', sans-serif;
+   font-size: 14pt;
+   color: olive;
+   margin-top: 10px;
+}
+
+.container {
+   margin-left: 225px;
+   margin-right: 225px;
+}
+
+#crystals {
+   margin-left: 215px;
+   margin-right: 215px;
+}
+
+.score {
+   width: 980px;
+   border-bottom: 2px solid purple;
+}
+
+
