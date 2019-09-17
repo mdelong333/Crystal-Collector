@@ -24,6 +24,7 @@ h1 {
    color: goldenrod;
    margin-left: 400px;
    margin-right: 400px;
+   margin-top: 20px;
 }
 
 h2 {
@@ -49,7 +50,7 @@ p {
 }
 
 .score {
-   width: 980px;
+   width: 960px;
    border-bottom: 2px solid purple;
 }
 
