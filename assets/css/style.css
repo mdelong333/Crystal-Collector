@@ -19,11 +19,9 @@ body {
 h1 {
    font-family: 'Poiret One', cursive;
    border-bottom: 2px solid purple;
-   width: 600px;
+   width: 550px;
    text-align: center;
    color: goldenrod;
-   margin-left: 400px;
-   margin-right: 400px;
    margin-top: 20px;
 }
 
@@ -39,19 +37,16 @@ p {
    margin-top: 10px;
 }
 
-.container {
-   margin-left: 225px;
-   margin-right: 225px;
-}
-
 #crystals {
    margin-left: 215px;
    margin-right: 215px;
 }
 
 .score {
-   width: 960px;
+   max-width: 960px;
    border-bottom: 2px solid purple;
 }
 
-
+footer {
+   border-top: 2px solid goldenrod;
+}

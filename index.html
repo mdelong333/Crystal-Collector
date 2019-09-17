@@ -14,8 +14,11 @@
     <title>Crystal Collector</title>
 </head>
 <body>
-    <h1>Crystal Collector!</h1>
-    <div class="container instruction">
+    <div class="container col-sm-10 col-md-8 col-lg-8 col-xl-5">
+        <h1>Crystal Collector!</h1>
+    </div>
+
+    <div class="container instruction col-sm-12 col-md-12 col-lg-8 col-xl-8">
         <h2>Instructions:</h2>
         <p>Click the crystals to increase your score - match the Goal quantity to win!
             <br>
@@ -25,21 +28,25 @@
         </p>
     </div>
 
-    <div class="container goal">
+    <div class="container goal col-sm-12 col-md-12 col-lg-8 col-xl-8">
         <h2 id="goal-number"></h2>
         <p id="win-txt"></p>
         <p id="loss-txt"></p>
     </div>
 
-    <div class="container" id="crystals">
+    <div class="container col-s-12 col-md-8 col-lg-8 col-xl-9" id="crystals">
         <img class="crystal-img" id="amethyst" src="./assets/images/amethyst.png" alt="amethyst">
         <img class="crystal-img" id="quartz" src="./assets/images/auraquartz.png" alt="aura quartz">
         <img class="crystal-img" id="citrine" src="./assets/images/citrine.png" alt="citrine">
         <img class="crystal-img" id="labradorite" src="./assets/images/labradorite.png" alt="labradorite">
     </div>
 
-    <div class="container score" ><h2 id="player-score">Total Score:</h2></div>
+    <div class="container score col-sm-12 col-md-12 col-lg-8 col-xl-8">
+        <h2 id="player-score">Total Score:</h2>
+    </div>
 
     <script src="assets/javascript/game.js"></script>
 </body>
+
+<footer></footer>
 </html>
